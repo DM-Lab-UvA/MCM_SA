@@ -2,8 +2,6 @@
 
 void get_data(string fname, Partition &p_struct) {
 
-	// https://github.com/clelidm/MinCompSpin_Greedy
-
 	__uint128_t state;
 	map<__uint128_t, unsigned int> data;
 
