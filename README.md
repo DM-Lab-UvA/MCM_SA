@@ -12,10 +12,6 @@ The code can be compiled using the `compile.bat` batch file in the main folder. 
 
 The code can be compiled using the command `g++ -std=c++17 -O3 -Wall ./src/*.cpp -o ./bin/saa.out`.
 
-## Tutorial
-
-A tutorial in the form of a jupyter notebook has been provided in the `./doc/` directory.
-
 ## Running the code
 
 The code is run from the executable file `saa.exe` (on Windows) or `saa.out` (on Linux/Mac) in the `bin` folder. The program should be called with the number of variables `n` and the filename of the dataset as required arguments. The data is assumed to be in the `./input/data` folder and should end with `.dat` extension. The data should be encoded as binary strings, e.g. `11001110010` which are read from right to left. The maximum number of variables is 128.
@@ -91,9 +87,3 @@ If the best partition found divides 20 variables in the following way: `[[0,1,2]
   - `max_no_improve`: the maximum number of iterations without improvement in log-evidence before stopping the algorithm - increasing this allows for a more exhaustive search at the cost of speed and can be useful when analyzing data of many variables.
   - `max_iterations`: the maximum total number of iterations to perform.
 - The last two parameters can be specified at runtime using the `--max` and `--stop` flags.
-
-## Coming soon
-- Python wrapper
-
-  
-
