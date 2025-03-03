@@ -1,5 +1,4 @@
-## Community detection using Minimally Complex Models:
-## Simulated annealing algorithm
+## High-order Community detection using Minimally Complex Models: Simulated annealing algorithm
 ## Requirements
 The code uses C++ version 17.
 
